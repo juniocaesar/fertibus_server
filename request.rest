@@ -1,0 +1,30 @@
+
+GET http://localhost:5000/getAllTest
+
+###
+
+POST http://localhost:5000/createTest
+content-type: application/json
+
+{
+    "title": "Meja",
+    "price": 150000
+}
+
+###
+
+GET http://localhost:5000/getTest/3
+
+###
+
+PATCH  http://localhost:5000/updateTest/1
+content-type: application/json
+
+{
+    "title": "Kaca",
+    "price": 25000
+}
+
+###
+
+DELETE http://localhost:5000/deleteTest/5

@@ -1,0 +1,30 @@
+{
+  "name": "fertibus_server",
+  "version": "1.0.0",
+  "description": "Back-end server for Fertibus App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniocaesar/fertibus_server.git"
+  },
+  "author": "Junio Caesar <junio.caesar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniocaesar/fertibus_server/issues"
+  },
+  "homepage": "https://github.com/juniocaesar/fertibus_server#readme"
+}
